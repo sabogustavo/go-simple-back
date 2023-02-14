@@ -10,7 +10,7 @@ COPY . .
 #RUN go install
 RUN go build -o /godocker
 
-EXPOSE 2000
+EXPOSE 443
 
 #CMD ["go", "run", "main.go"]
 CMD [ "./godocker" ]
