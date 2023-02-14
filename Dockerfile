@@ -13,4 +13,4 @@ RUN go build -o /godocker
 EXPOSE 2000
 
 #CMD ["go", "run", "main.go"]
-CMD [ "/godocker" ]
+CMD [ "./godocker" ]
